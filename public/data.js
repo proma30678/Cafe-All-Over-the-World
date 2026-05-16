@@ -235,7 +235,7 @@ window.CAFES = [
     name: "汩咖啡 gu coffee",
     area: "台北",
     address: "台北市松山區光復南路6巷48弄7號1樓",
-    phone: "",
+    phone: "02-2579-0355",
     hours: "平日 10:00-19:00；週六、週日 11:00-20:00；公休日依官方公告為準",
     mapUrl: "https://maps.app.goo.gl/AcXAzZFbycZqpFsQA",
     tags: ["巷弄咖啡", "甜點", "提拉米蘇", "布丁", "咖啡豆", "質感咖啡"],
