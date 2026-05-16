@@ -6,7 +6,7 @@ window.CAFES = [
     phone: "02-2383-2022",
     hours: "10:00-20:00；週四公休（建議出發前再確認官方公告）",
     mapUrl: "https://maps.app.goo.gl/cVjosB2bkJq4qkv48",
-    image: "./images/Neko coffee.jpg",
+    image: "./images/Neko-coffee.jpg",
     tags: ["貓咪咖啡廳", "台北車站", "不限時"],
     note: "台北車站 M8 出口步行約 3 分鐘；不接待 12 歲以下孩童。",
     source: "整理自公開店家介紹與食記資訊"
