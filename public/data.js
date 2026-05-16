@@ -158,7 +158,7 @@ window.CAFES = [
     name: "Greenriver Roastery．Archive",
     area: "台北",
     address: "115臺北市南港區中南里中南街121號",
-    // phone: "02-2462-0535",
+    phone: "X",
     hours: "平日 10:00-18:00；假日 10:00-19:00",
     mapUrl: "https://maps.app.goo.gl/nWuDrakRX5bD5Y8r8",
     tags: ["日式咖啡", "木質調", "甜點", "咖啡豆", "寵物友善"],
@@ -169,7 +169,7 @@ window.CAFES = [
     name: "渡深",
     area: "新北",
     address: "預約成功後由店家提供地址",
-    phone: "",
+    phone: "X",
     hours: "12:30-18:30；不定期開放，營業日依官方 Instagram 公告為準",
     mapUrl: "https://www.instagram.com/tranquilo_underden/",
     tags: ["秘境咖啡", "預約制", "山林咖啡", "手作甜點", "鹽可頌", "私宅空間"],
@@ -213,7 +213,7 @@ window.CAFES = [
     name: "純潔工作室 chun jie studio",
     area: "台南",
     address: "台南市北區裕民街83巷19號",
-    phone: "",
+    phone: "X",
     hours: "10:30-19:00；店休日依官方 Instagram／Facebook 公告為準",
     mapUrl: "https://maps.app.goo.gl/zqqNtP7tvH4pAvQh8",
     tags: ["巷弄咖啡", "老宅咖啡", "木質調", "甜點", "咖啡豆", "設計選物"],
@@ -224,7 +224,7 @@ window.CAFES = [
     name: "群島李季 Qundao Kitchen",
     area: "台中",
     address: "台中市西區柳川東路二段53巷1號",
-    phone: "",
+    phone: "X",
     hours: "11:00-17:00；常見資訊為週三、週四公休，店休日依官方公告為準",
     mapUrl: "https://maps.app.goo.gl/76LeSVeN6dCS7BrT6",
     tags: ["老宅咖啡", "甜點", "肉桂捲", "布丁", "寵物友善", "現場候位"],
@@ -252,5 +252,16 @@ window.CAFES = [
     tags: ["早午餐", "澳式早午餐", "餐酒館", "可訂位"],
     note: "位在台北中山區合江街，鄰近中山國中站與行天宮站，主打澳式早午餐、咖啡、甜點與餐酒料理。空間簡約舒適，適合早午餐、聚餐或約會；訂位頁顯示早午餐時段低消與用餐時間限制，建議先訂位並確認當日營業時段。",
     source: "整理自官方 Facebook／Instagram、inline 訂位頁與近期食記資訊"
+  },
+  {
+    name: "Bulga 寶格冰淇淋",
+    area: "台中",
+    address: "台中市西區公正路117號",
+    phone: "04-2302-7738",
+    hours: "13:00-21:00；週一、週二公休，依官方公告為準",
+    mapUrl: "https://maps.app.goo.gl/qkuanywvLPWrmV8C7",
+    tags: ["冰淇淋", "甜點", "果醬", "咖啡"],
+    note: "位在台中西區公正路、草悟道與勤美誠品附近，主打冰淇淋、甜點與果醬，也有咖啡飲品。整體比較像冰淇淋甜點店，適合午後吃甜點、約會或逛勤美時順路休息；是否適合久坐、插座與不限時，建議出發前再確認現場規定。",
+    source: "整理自官方網站、Facebook 與公開食記資訊"
   }
 ];
