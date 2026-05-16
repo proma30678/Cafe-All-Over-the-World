@@ -56,7 +56,7 @@ function renderCards() {
   }
 
   cards.innerHTML = list.map(cafe => `
-    <article class="card">
+    <article class="card ${cafe.image ? 'card--photo' : ''}" ${cafe.image ? `style="--card-image: url('${cafe.image}');"` : ''}>
       <div class="card-top">
         <div>
           <p class="area">${cafe.area || '未分類'}</p>
