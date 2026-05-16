@@ -5,7 +5,7 @@ const searchInput = document.querySelector('#searchInput');
 const areaFilter = document.querySelector('#areaFilter');
 const tagFilter = document.querySelector('#tagFilter');
 const totalCount = document.querySelector('#totalCount');
-const openCount = document.querySelector('#openCount');
+
 const importDialog = document.querySelector('#importDialog');
 const csvInput = document.querySelector('#csvInput');
 
@@ -48,7 +48,6 @@ function filteredCafes() {
 function renderCards() {
   const list = filteredCafes();
   totalCount.textContent = state.cafes.length;
-  openCount.textContent = state.cafes.filter(c => c.hours && c.address && c.phone).length;
 
   if (!list.length) {
     cards.innerHTML = '<div class="empty">沒有符合條件的咖啡廳。</div>';
@@ -56,22 +55,7 @@ function renderCards() {
   }
 
   cards.innerHTML = list.map(cafe => `
-    <article class="card ${cafe.image ? 'card--photo' : ''}" ${cafe.image ? `style="--card-image: url('${cafe.image}');"` : ''}>
-      <div class="card-top">
-        <div>
-          <p class="area">${cafe.area || '未分類'}</p>
-          <h2>${cafe.name}</h2>
-        </div>
-        <a class="nav-btn" href="${mapsUrl(cafe)}" target="_blank" rel="noopener">導航</a>
-      </div>
-      <div class="info-list">
-        <p><span>營業時間</span>${cafe.hours || '待補'}</p>
-        <p><span>地點</span>${cafe.address || '待補'}</p>
-        <p><span>電話</span>${cafe.phone ? `<a href="${telUrl(cafe.phone)}">${cafe.phone}</a>` : '待補'}</p>
-      </div>
-      ${(cafe.tags || []).length ? `<div class="tags">${cafe.tags.map(tag => `<span>${tag}</span>`).join('')}</div>` : ''}
-      ${cafe.note ? `<p class="note">${cafe.note}</p>` : ''}
-    </article>
+    ...
   `).join('');
 }
 
