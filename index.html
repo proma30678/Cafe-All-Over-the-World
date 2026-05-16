@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>私房咖啡廳收藏</title>
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Evan's Private Cafe List</p>
+      <h1>私房咖啡廳收藏</h1>
+      <p class="hero__text">
+        收藏適合久坐、讀書、工作、深夜放空的咖啡廳。每間都可以快速查看營業時間、電話與 Google Maps 導航。
+      </p>
+
+      <div class="hero__stats">
+        <div>
+          <strong id="totalCount">0</strong>
+          <span>間收藏</span>
+        </div>
+        <div>
+          <strong id="openCount">0</strong>
+          <span>資料完整</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <div class="searchBox">
+        <span>⌕</span>
+        <input id="searchInput" type="search" placeholder="搜尋咖啡廳、地區、特色..." />
+      </div>
+
+      <div class="selectFilters">
+        <select id="areaFilter">
+          <option value="all">全部地區</option>
+        </select>
+
+        <select id="tagFilter">
+          <option value="all">全部標籤</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="quickImport">
+      <div>
+        <h2>快速匯入咖啡廳</h2>
+        <p>
+          可貼上 CSV 格式：名稱,地區,地址,電話,營業時間,標籤,備註。
+          標籤請用分號分隔，例如：不限時;插座;深夜咖啡。
+        </p>
+      </div>
+
+      <button id="openImport" type="button">開啟匯入</button>
+    </section>
+
+    <section id="cards" class="cafeGrid"></section>
+  </main>
+
+  <dialog id="importDialog" class="importDialog">
+    <form method="dialog" class="importBox">
+      <h2>快速匯入</h2>
+      <p>
+        每一行一間咖啡廳，格式如下：
+      </p>
+
+      <pre>名稱,地區,地址,電話,營業時間,標籤,備註</pre>
+
+      <textarea id="csvInput" rows="10" placeholder="例如：
+未央咖啡店,台北大安,台北市大安區四維路208巷10號,02-2703-2331,13:00-01:00,深夜咖啡;插座;不限時,營業到深夜，適合工作"></textarea>
+
+      <div class="dialogActions">
+        <button value="cancel" type="submit">關閉</button>
+        <button id="applyImport" value="default" type="button">套用預覽</button>
+        <button id="downloadData" value="default" type="button">下載 data.js</button>
+      </div>
+    </form>
+  </dialog>
+
+  <footer class="footer">
+    <p>營業時間可能因公休、包場或臨時公告調整，出發前建議再確認店家社群或 Google Maps。</p>
+  </footer>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
