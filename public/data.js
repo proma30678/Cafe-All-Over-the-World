@@ -428,7 +428,7 @@ window.CAFES = [
     hours: "平日 11:30-21:00；假日 11:30-21:00；營業時間依官方 Instagram／Facebook 公告為準",
     mapUrl: "https://maps.app.goo.gl/VTULWJccjUWQezkj7",
     website: "https://www.instagram.com/touchcafe_tanxun/",
-    tags: ["新店", "永安街", "社區咖啡", "巷弄咖啡", "Wi-Fi", "早午餐", "義大利麵", "甜點", "聚餐"],
+    tags: ["社區咖啡", "巷弄咖啡", "Wi-Fi", "早午餐", "義大利麵", "甜點", "聚餐"],
     note: "位在新店永安街巷弄內，店家自稱像社區客廳般溫暖，提供咖啡、甜點、早午餐、義大利麵、燉飯與輕食，適合用餐、聊天或下午休息。公開食記提到有 Wi-Fi、免服務費與可外帶；是否不限時、插座與訂位規則建議出發前再確認官方社群。",
     source: "整理自官方 Instagram、Facebook、iCHEF 店家資訊與近期食記資訊"
   },
@@ -440,8 +440,32 @@ window.CAFES = [
     hours: "12:00-18:00；常見資訊為週一、週二公休，營業與公休日依官方公告為準",
     mapUrl: "https://maps.app.goo.gl/HAt56hPMSCiTDsDW8",
     website: "https://inline.app/booking/cover/covercafe",
-    tags: ["新竹", "東區", "新竹火車站", "歐風咖啡", "天井玻璃屋", "甜點", "下午茶", "可訂位", "拍照"],
+    tags: ["歐風咖啡", "天井玻璃屋", "甜點", "下午茶", "可訂位", "拍照"],
     note: "位在新竹市東區文昌街，靠近新竹火車站與新竹大遠百生活圈。空間以異國歐風、挑高天井與多樓層座位為特色，適合下午茶、甜點、約會與拍照；部分介紹提到低消一杯飲品、客滿可能限時 2 小時，假日建議先透過 inline 訂位並確認當日營業規則。",
     source: "整理自 inline 訂位頁、新竹市觀光旅遊網與近期食記資訊"
+  },
+  {
+    name: "豹豹咖啡 • 海邊館 BoBoCafe",
+    area: "新北",
+    address: "新北市石門區德茂里下員坑33-6號",
+    phone: "02-2636-6760",
+    hours: "11:00-18:00；夏季 5-10 月無固定公休，冬季 11-4 月週一公休；實際公休日依官方公告為準",
+    mapUrl: "https://maps.app.goo.gl/uhevpCWWm4qHW2xY7",
+    website: "https://www.instagram.com/bobocafe_seaside/",
+    tags: ["海景咖啡", "玻璃屋", "寵物友善", "甜點", "咖啡豆", "北海岸", "拍照"],
+    note: "位在新北石門白沙灣附近，主打海景、玻璃屋與北海岸度假感，適合安排在白沙灣、麟山鼻步道或北海岸一日遊途中休息。官方 Instagram 標示營業時間 11:00-18:00、寵物友善可落地入內；北觀處資訊列出夏季無固定公休、冬季週一公休。部分近期介紹提到假日可能有用餐時間限制，建議出發前確認官方公告或 Google Maps。",
+    source: "整理自官方 Instagram、北海岸及觀音山國家風景區管理處與近期食記資訊"
+  },
+  {
+    name: "配個咖啡吧！PEG Coffee",
+    area: "台北",
+    address: "台北市信義區嘉興街309號",
+    phone: "02-8732-8603",
+    hours: "週一至週六 14:00-20:00；週日 14:00-18:00；實際營業依官方 Facebook／Instagram 公告為準",
+    mapUrl: "https://maps.app.goo.gl/PKCuSg3vLbSPXb2e8",
+    website: "https://www.facebook.com/PEGCoffee/",
+    tags: ["自家烘焙", "手沖咖啡", "單品咖啡", "甜點", "插座", "海賊王主題"],
+    note: "位在信義區嘉興街、近六張犁站，是自家烘焙與手沖咖啡取向的小店。公開資訊提到店內有大量海賊王布偶與海報，手沖與甜點是特色，低消一杯飲品；Cafe Nomad 資訊標示有插座但非不限時，適合專心喝咖啡、吃甜點或短暫工作。店家常會在社群公告臨時店休，出發前建議先確認 Facebook 或 Instagram。",
+    source: "整理自官方 Facebook、Instagram、Cafe Nomad 與公開食記資訊"
   }
 ];
