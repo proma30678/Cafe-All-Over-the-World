@@ -467,5 +467,89 @@ window.CAFES = [
     tags: ["自家烘焙", "手沖咖啡", "單品咖啡", "甜點", "插座", "海賊王主題"],
     note: "位在信義區嘉興街、近六張犁站，是自家烘焙與手沖咖啡取向的小店。公開資訊提到店內有大量海賊王布偶與海報，手沖與甜點是特色，低消一杯飲品；Cafe Nomad 資訊標示有插座但非不限時，適合專心喝咖啡、吃甜點或短暫工作。店家常會在社群公告臨時店休，出發前建議先確認 Facebook 或 Instagram。",
     source: "整理自官方 Facebook、Instagram、Cafe Nomad 與公開食記資訊"
+  },
+  {
+    name: "咖所 Castle Coffee Studio",
+    area: "台中",
+    address: "台中市南屯區懷德街31巷11號",
+    phone: "0911-939-137",
+    hours: "11:00-18:00；公休日依官方 Instagram 公告為準",
+    mapUrl: "https://maps.app.goo.gl/SWA1p5mqxTyMZc6i7",
+    website: "https://www.instagram.com/crs1121129/",
+    tags: ["老宅咖啡", "寵物友善", "店狗", "自家烘焙", "甜點", "現金"],
+    note: "位在台中南屯黎明新村一帶的兩層樓老宅咖啡廳，店內有兩隻博美店狗豆腐與豆乾，整體氛圍溫馨放鬆。店家主打咖啡、甜點與自家烘焙，部分介紹提到老闆具 SCA 感官與烘焙證照；公開資訊也多標示寵物友善、只收現金、無服務費。座位不算多，是否不限時、插座與低消規則建議出發前確認官方 Instagram。",
+    source: "整理自官方 Instagram、Facebook、近期食記與公開店家資訊"
+  },
+  {
+    name: "Binôme Café 彼儂咖啡館",
+    area: "台北",
+    address: "台北市大安區和平東路三段212巷21號",
+    phone: "X",
+    hours: "10:00-18:00；常見資訊為週五、週六、週日、週一營業，週二至週四公休；實際依官方公告為準",
+    mapUrl: "https://maps.app.goo.gl/ngD7K9SFrwNgpaCQ7",
+    website: "https://www.instagram.com/binomecafe/",
+    tags: ["老宅咖啡", "甜點", "布丁", "早午餐", "鬆餅", "現場候位"],
+    note: "原本的人氣甜點店彼儂回歸後搬到六張犁站附近，改為咖啡館型態，主打經典香草焦糖布丁、甜點、咖啡與早午餐。位置藏在和平東路三段巷弄內，步行可到嘉興公園；部分食記提到用餐限時約 2 小時、一週營業天數較少，建議出發前先確認官方 Instagram 或 Google Maps。",
+    source: "整理自官方 Instagram、近期食記與公開店家資訊"
+  },
+  {
+    name: "自野咖啡",
+    area: "台中",
+    address: "台中市西屯區西屯路三段宏福一巷6弄13號",
+    phone: "04-2461-7118",
+    hours: "11:30-18:30；店休日依官方 Instagram／Facebook 公告為準",
+    mapUrl: "https://maps.app.goo.gl/bZ493Drz5m4aWQbm8",
+    website: "https://www.instagram.com/ziye.space/",
+    tags: ["老宅咖啡", "侘寂風", "清水模", "綠意窗景", "甜點", "現金"],
+    note: "位在台中西屯中科商圈巷弄內，空間以老宅、清水模、灰白侘寂感與綠意窗景為特色，適合下午喝咖啡、吃甜點、拍照或短暫放空。官方 Instagram 標示營業時間 11:30-18:30、電話 04-2461-7118、僅收現金、當日與假日不開放訂位、不開放寵物友善；部分食記提到低消一杯飲品，客滿時可能限時，建議出發前確認官方公告。",
+    source: "整理自官方 Instagram、Facebook 與近期食記資訊"
+  },
+  {
+    name: "青禾山所 Qing-He",
+    area: "新北",
+    address: "新北市淡水區油車里中正路一段6巷31-1號",
+    phone: "X",
+    hours: "週二至週五 13:00-18:00；週六、週日 13:00-19:00；週一與不定休依官方 Instagram 公告為準",
+    mapUrl: "https://maps.app.goo.gl/Xt4AnZK6yp1ka34r6",
+    website: "https://www.instagram.com/qinghe.31/",
+    tags: ["森林系咖啡", "玻璃屋", "景觀咖啡", "簡餐", "下午茶", "甜點", "熱壓吐司", "拍照"],
+    note: "位在淡水中正路一段巷弄內，是兩層樓玻璃屋風格的森林系景觀咖啡廳，環境被綠意圍繞，適合下午茶、拍照、放空或安排在淡水一日遊途中休息。試營運期間常見品項包含熱壓吐司、甜點、咖啡與茶飲，後續也可能供應簡餐；營業時間與餐點供應仍建議以官方 Instagram 或 Google Maps 為準。",
+    source: "整理自官方 Instagram、近期社群貼文與公開咖啡廳介紹資訊"
+  },
+  {
+    name: "我們在海邊",
+    area: "新北",
+    address: "新北市三芝區北勢子12-1號",
+    phone: "0972-273-988",
+    hours: "11:00-18:00；週四公休，營業與訂位規則依官方公告為準",
+    mapUrl: "https://maps.app.goo.gl/trRmefQRDYFBSANK8",
+    website: "https://www.instagram.com/webeach121/",
+    tags: ["海景咖啡", "預約制", "甜點", "手沖咖啡", "寵物友善", "現金"],
+    note: "位在新北三芝北勢子、淺水灣海岸第一排，是看海景與放空型咖啡廳。店內以咖啡、飲品與甜點套餐為主，不提供正餐；多數資訊顯示採線上預約制、用餐時間約 2 小時、不接待 12 歲以下孩童預約，寵物需推車或提籃。假日熱門，建議先訂位並確認當日規則。",
+    source: "整理自官方 Instagram、inline 訂位頁與近期食記資訊"
+  },
+  {
+    name: "GRAY CAFE 咖灰",
+    area: "新北",
+    address: "新北市石門區八甲路1號1樓",
+    phone: "0925-269-223",
+    hours: "12:00-19:00；公休日依當週天氣與官方 Instagram／Google Maps 公告為準",
+    mapUrl: "https://maps.app.goo.gl/2MaRPNccDKJw8dgd9",
+    website: "https://www.instagram.com/graycafe2021/",
+    tags: ["海景咖啡", "甜點", "肉桂捲", "咖哩飯", "現場候位", "不提供訂位"],
+    note: "位在新北石門白沙灣旁，戶外座位可看海景與夕陽，適合安排在白沙灣、北海岸一日遊或海邊散步時順路休息。店家不提供訂位，以現場候位為主；部分公開資訊提到低消與客滿時可能限時，營業與公休日也會依天氣調整，建議出發前確認官方 Instagram 或 Google Maps。",
+    source: "整理自官方 Instagram、Facebook、近期食記與公開店家資訊"
+  },
+  {
+    name: "拾浪咖啡",
+    area: "新北",
+    address: "新北市石門區阿里荖10號",
+    phone: "0975-875-133",
+    hours: "平日 11:00-19:00；週六、週日 11:00-20:00；不定休依官方公告為準",
+    mapUrl: "https://maps.app.goo.gl/DdmRvxm8WU6qf2sr8",
+    website: "https://www.facebook.com/p/%E6%8B%BE%E6%B5%AA%E5%92%96%E5%95%A1-100090561886116/",
+    tags: ["海景咖啡", "寵物友善", "甜點", "義大利麵", "停車場", "不提供訂位"],
+    note: "位在新北石門阿里荖、草里漁港旁的海景第一排咖啡廳，白色兩層樓建築可看 180 度海景，適合安排在北海岸、石門或金山一日遊途中休息。店家不提供訂位，假日熱門時段可能需要現場候位；有少量停車位，也可搭公車到草里站後步行前往。出發前建議確認官方社群或 Google Maps 營業公告。",
+    source: "整理自官方 Facebook、近期食記與公開店家資訊"
   }
 ];
